@@ -4,6 +4,10 @@
   "description": "NodeJS E-Commerce API",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": ">=14.20.1"
+  },
+
   "scripts": {
     "nodemon": "nodemon",
     "start": "nodemon server.js"
