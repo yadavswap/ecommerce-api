@@ -248,3 +248,16 @@ export const deleteProduct = asyncHandler(
         })
     }
 )
+
+// Test
+export const test = asyncHandler(
+    async (req, res) => {
+
+        
+
+        res.json({
+            status: 'success',
+            message: "Test Successfully"
+        })
+    }
+)

@@ -13,6 +13,7 @@ productRoutes.get("/:id",isLoggedIn,GetProduct)
 productRoutes.put("/:id",isLoggedIn,isAdmin,updateProduct)
 
 productRoutes.delete("/:id/delete",isLoggedIn,isAdmin,deleteProduct)
+productRoutes.get("/test",Test)
 
 export default productRoutes;
 
