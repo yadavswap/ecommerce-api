@@ -5,7 +5,7 @@ dotenv.config()
 import User from "../models/User.js"
 import Order from "../models/Order.js"
 import Product from "../models/Product.js"
-import Stripe from "Stripe";
+import Stripe from "stripe";
 import Coupon from "../models/Coupon.js"
 
 // stripe instamce
